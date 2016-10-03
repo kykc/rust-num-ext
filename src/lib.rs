@@ -1,6 +1,6 @@
 extern crate num;
 
-type Complex<T> = num::Complex<T>;
+pub type Complex<T> = num::Complex<T>;
 
 #[allow(dead_code)]
 pub trait Numeric: num::Float + Default {
