@@ -1,5 +1,8 @@
 extern crate num;
 
+#[allow(unused_imports)]
+use num::Complex as Complex;
+
 #[allow(dead_code)]
 pub trait Numeric: num::Float + Default {
     fn pi(Self) -> Self;
